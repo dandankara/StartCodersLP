@@ -1,0 +1,56 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #69569b;
+}
+
+header nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #69569b;
+}
+
+header a:hover {
+  color: #8a80a5;
+}
+
+.btnRequest {
+  width: 179px;
+  height: 48px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#69569b), to(#9a599a));
+  background: linear-gradient(180deg, #69569b 0%, #9a599a 100%);
+  -webkit-box-shadow: 0px 4px 26px rgba(105, 86, 155, 0.5);
+          box-shadow: 0px 4px 26px rgba(105, 86, 155, 0.5);
+  padding: 10px 27px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  margin-left: 44px;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

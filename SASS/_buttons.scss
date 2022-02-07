@@ -1,0 +1,20 @@
+$font-stack: "Poppins", sans-serif;
+$font-stack: "Poppins", sans-serif;
+$btnColor: linear-gradient(180deg, #69569b 0%, #9a599a 100%);
+$btnShadow: 0px 4px 26px rgba(105, 86, 155, 0.5);
+$textHeader: #69569b;
+
+.btnRequest{
+    width: 179px;
+    height: 48px;
+    background: $btnColor;
+    box-shadow: $btnShadow;
+    padding: 10px 27px;
+    border-radius: 10px;
+    font-family: $font-stack;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    margin-left: 44px;
+    cursor: pointer; 
+};
